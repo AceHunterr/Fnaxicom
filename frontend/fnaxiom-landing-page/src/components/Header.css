@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Comic Neue', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease;
+}
+
+.header .logo:hover {
+    transform: scale(1.1);
+    color: #e74c3c;
+}
+
+.header nav a {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+    color: #e74c3c;
+}
+
+.header .buttons button {
+    margin-left: 15px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header .buttons .login {
+    background-color: #333;
+    color: #fff;
+}
+
+.header .buttons .login:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.header .buttons .get-started {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.header .buttons .get-started:hover {
+    background-color: #ff6b61;
+    transform: translateY(-2px);
+}
+ 
