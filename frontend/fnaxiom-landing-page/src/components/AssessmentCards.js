@@ -1,4 +1,3 @@
-// src/components/AssessmentCards.js
 import React from 'react';
 import './AssessmentCards.css';
 
